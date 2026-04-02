@@ -16,3 +16,9 @@ vim.api.nvim_create_autocmd("LspAttach", {
 	end,
 })
 vim.o.updatetime = 750 --set hover delay to 750 ms
+
+-- Remap navigation commands to center screen
+vim.keymap.set('n', '<C-d>', '<C-d>zz', { desc = 'Scroll down and center' })
+vim.keymap.set('n', '<C-u>', '<C-u>zz', { desc = 'Scroll up and center' })
+vim.keymap.set('n', 'n', 'nzzzv', { desc = 'Next search result and center' })
+vim.keymap.set('n', 'N', 'Nzzzv', { desc = 'Prev search result and center' })
