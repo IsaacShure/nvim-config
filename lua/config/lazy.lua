@@ -28,14 +28,16 @@ require("lazy").setup({
 		{ import = "plugins" },
 		{ import = "plugins.colorscheme" },
 		{ import = "plugins.rainbow_csv" },
+		{ import = "plugins.transparent" },
 		{ import = "plugins.lsp" },
 		--{ import = "plugins.cmp"},
 	},
 	-- Configure any other settings here. See the documentation for more details.
 	-- colorscheme that will be used when installing plugins.
-	install = { colorscheme = { "gruvbox" } },
+	install = { colorscheme = { "tokyonight-storm" } },
 	-- automatically check for plugin updates
 	checker = { enabled = true },
 })
 
-vim.cmd.colorscheme("gruvbox")
+vim.cmd.colorscheme("tokyonight-moon")
+vim.cmd.TransparentEnable()
