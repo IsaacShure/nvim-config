@@ -26,9 +26,6 @@ require("lazy").setup({
 	spec = {
 		-- import your plugins
 		{ import = "plugins" },
-		{ import = "plugins.colorscheme" },
-		{ import = "plugins.rainbow_csv" },
-		{ import = "plugins.lsp" },
 		--{ import = "plugins.cmp"},
 	},
 	-- Configure any other settings here. See the documentation for more details.
