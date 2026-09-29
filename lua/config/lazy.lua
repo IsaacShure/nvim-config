@@ -36,3 +36,5 @@ require("lazy").setup({
 })
 
 vim.cmd.colorscheme("gruvbox")
+vim.opt.tabstop = 4
+vim.opt.shiftwidth = 4
