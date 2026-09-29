@@ -35,4 +35,5 @@ require("lazy").setup({
 	checker = { enabled = true },
 })
 
-vim.cmd.colorscheme("gruvbox")
+-- vim.cmd.colorscheme("gruvbox")
+vim.cmd.colorscheme("Later_This_Evening")
